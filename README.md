@@ -68,3 +68,5 @@ Many steps can be implemented to improve the project, but all of them need to be
 ## Authors
 - Ahmad Yahya. ( @AhmadYahya97 )
 - Maha Hajja.
+
+#### Special thanks goes to our supervisor Mr. Aziz Qaroush.
