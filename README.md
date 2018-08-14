@@ -48,7 +48,7 @@ Choosing the variables and the values is all done by the heuristics, the forward
 Many steps can be implemented to improve the project, but all of them need to be well studied and understood, there are tons of optimization and solving techniques like the **phase transition phenomena**, which was first discussed in the fashion of crosswords puzzle in Anbulagan and Adi Botea paper. Their paper has the best results so far in the crosswords puzzle as a CSP approach.
 
 
-*More details about the project like the challenges we faced and the data structures used can be found on our paper in this repo.*
+*More details about the project like the challenges we faced and the data structures used can be found in our paper in this repo.*
 
 ## Screenshots
 ### Initial screen
