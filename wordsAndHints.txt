@@ -1,0 +1,148 @@
+april,Month of the New York primary vote,arts
+nbc,30 rock network,arts
+owe,need to pay,arts
+drone,Stingle bee,arts
+ale,Malt bevarage,arts
+vim,Energy,arts
+donne,"Death, Be Not Proud" poet,arts
+pan,Trash,arts
+ens,Somethings,arts
+toaster,Bread browner,arts
+asp,Snake that bit Celo,arts
+idle,Turn over,arts
+arum,Jack-in-the-pulpit,arts
+boredom,Ennui,arts
+ruse,Deceit,arts
+adorer,Lover,arts
+miller,Columbia University theater,arts
+sofa,Resting Place,arts
+masseur,Massage specialist,arts
+emit,Release,arts
+sago,Powdery strach,arts
+spy,Mole,arts
+lowcost,At a baragain price,arts
+fee,Something charged,arts
+ear,Ring site,arts
+otter,Aquatic charged,arts
+err,Misadd e.g.,arts
+ali,A.K.A. Clay,arts
+piano,Elton Johnh's medium,arts
+yes,Approved!,arts
+res,Image specification, for short,arts
+etude,Study musical technique,arts
+add,Do sums,arts
+pro,Country club figure,arts
+ron,Palillo of "Welcome Back Kotter",arts
+inn,Stopover site,arts
+leetide,Current running with the wind,arts
+napalm,Vietnam war weapon,arts
+blase,World-weary,arts
+cent,Small price to pay,arts
+overrules,Vetoes,arts
+win,Succeed,arts
+ems,Expressions of hesitation,arts
+tide,It may be masked or disagreeable,arts
+odor,Nobles,arts
+earls,Humble or degrade,arts
+abase,Wickedness site in Genesis,arts
+sodom,"Criminal Minds" pros,arts
+useup,Consume entirely,arts
+merry,____-go-round,arts
+erato,Mythical lyrist,arts
+mags,Cosmo and people e.g.,arts
+isotope,Praticular from of an element,arts
+maoris,Members of Polynesian New Zealand,arts
+scale,Bathroom item,arts
+lers,Sport,arts
+wear,Noted Palin impression,arts
+fey,"___he drove out of sight..",arts
+ere,Small sougbird,arts
+tit,Kind of cross,arts
+tau,Wipe out,arts
+end,____vs. Wade,arts
+roe,hint,arts
+profilers,arts
+sth,sth,arts
+usma,technology
+asof,technology
+laird,technology
+prix,technology
+nape,technology
+alter,technology
+civicduty,technology
+nasty,technology
+suede,technology
+admire,technology
+cnn,technology
+maidofhonor,technology
+zoomin,technology
+goo,technology
+arson,technology
+halo,technology
+sgts,technology
+raid,technology
+cadet,technology
+circ,technology
+ssrs,technology
+dior,technology
+kazoo,technology
+ark,technology
+wetmop,technology
+backcountry,technology
+ope,technology
+asylum,technology
+laius,technology
+strum,technology
+westpoint,technology
+saute,technology
+arte,technology
+flew,technology
+ibsen,technology
+yser,technology
+alto,technology
+maha,technology
+upc,technology
+sri,technology
+miv,technology
+axis,technology
+andean,technology
+saudi,technology
+opted,technology
+fey,technology
+landho,technology
+alamo,technology
+itsin,technology
+retro,technology
+dryer,technology
+cumin,technology
+afoot,technology
+czars,technology
+noras,technology
+nosir,technology
+ogler,technology
+mods,technology
+haiku,technology
+ado,technology
+scat,technology
+gizmo,technology
+troop,technology
+scope,technology
+cdrom,technology
+keyup,technology
+acumen,technology
+writer,technology
+bassi,technology
+astab,technology
+cyrus,technology
+klute,technology
+nlers,technology
+taste,technology
+sofa,technology
+way,technology
+ill,technology
+net,technology
+two,technology
+maha,arts
+ahmad,arts
+sawas,arts
+
