@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="846.0" style="-fx-background-color: linear-gradient(#696969,lightgray);" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WelcomeController">
+   <children>
+      <AnchorPane layoutX="-5.0" prefHeight="174.0" prefWidth="852.0">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="370.0" layoutX="45.0" layoutY="43.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pics/coollogo_com-291111706.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="519.0" layoutY="7.0" prefHeight="118.0" prefWidth="298.0">
+               <children>
+                  <ImageView fitHeight="99.0" fitWidth="205.0" layoutX="43.0" layoutY="29.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@pics/coollogo_com-29687985.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="92.0" fitWidth="103.0" layoutX="202.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@pics/blinkingBrain.gif" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="183.0" layoutY="246.0" prefHeight="60.0" prefWidth="477.0" style="-fx-font-size: 22PX; -fx-alignment: CENTER; -fx-font-weight: bold; -fx-font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif;" text="Enter your crosswords dimensions" textAlignment="CENTER" textFill="CRIMSON">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <JFXTextField fx:id="m" alignment="CENTER" focusColor="CRIMSON" layoutX="304.0" layoutY="375.0" prefHeight="48.0" prefWidth="55.0" unFocusColor="#9d5959">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="n" alignment="CENTER" focusColor="CRIMSON" layoutX="485.0" layoutY="375.0" prefHeight="82.0" prefWidth="55.0" unFocusColor="#9d5959">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="start" alignment="CENTER" buttonType="RAISED" layoutX="377.0" layoutY="541.0" onAction="#letTheGameBegin" prefHeight="50.0" prefWidth="92.0" ripplerFill="WHITE" style="-fx-background-color: CRIMSON;" text="Start" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></JFXButton>
+      <Pane layoutX="28.0" layoutY="439.0" prefHeight="70.0" prefWidth="187.0" style="-fx-border-color: gray;">
+         <children>
+            <JFXRadioButton fx:id="r1" layoutX="35.0" layoutY="8.0" text="Predefined Grid0" />
+            <JFXRadioButton fx:id="r2" layoutX="35.0" layoutY="41.0" text="Predefined Grid1" />
+         </children>
+      </Pane>
+      <Label layoutX="28.0" layoutY="416.0" prefHeight="25.0" prefWidth="109.0" style="-fx-font-style: italic;" text="Predefined Grids" textFill="CRIMSON">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

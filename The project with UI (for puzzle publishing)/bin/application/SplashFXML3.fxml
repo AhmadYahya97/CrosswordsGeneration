@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="637.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="654.0" fitWidth="873.0" pickOnBounds="true">
+         <image>
+            <Image url="@pics/original.jpg" />
+         </image>
+      </ImageView>
+      <Pane opacity="0.45" prefHeight="438.0" prefWidth="691.0" style="-fx-background-color: #000000;" />
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Constraint Satisfaction">
+         <font>
+            <Font name="Roboto Medium" size="56.0" />
+         </font>
+      </Text>
+   </children>
+</StackPane>

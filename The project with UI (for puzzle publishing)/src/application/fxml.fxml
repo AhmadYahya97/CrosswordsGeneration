@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="whole" prefHeight="734.0" prefWidth="1034.0" style="-fx-border-width: 3px; -fx-background-color: linear-gradient(#696969,lightgray);" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.fxmlController">
+   <children>
+      <AnchorPane layoutX="-2.0" prefHeight="90.0" prefWidth="1064.0" style="-fx-border-width: 0px 0px 3px 0px;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="82.0" fitWidth="370.0" layoutX="330.0" layoutY="6.0" pickOnBounds="true">
+               <image>
+                  <Image url="@pics/coollogo_com-291111706.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Pane layoutY="539.0" prefHeight="65.0" prefWidth="1034.0" style="-fx-border-width: 3px 0px 0px 0px;" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="539.0">
+         <children>
+            <JFXButton fx:id="button" layoutX="535.0" layoutY="17.0" onAction="#clr" prefHeight="38.0" prefWidth="81.0" style="-fx-background-color: crimson;" text="Clear" textFill="#d0caca" />
+            <JFXButton fx:id="generate" layoutX="215.0" layoutY="16.0" onAction="#generateToFinal" prefHeight="38.0" prefWidth="205.0" style="-fx-background-color: crimson;" text="Generate to final solution" textFill="#c3b7b9" />
+            <JFXButton fx:id="back" layoutX="14.0" layoutY="16.0" onAction="#back" prefHeight="38.0" prefWidth="81.0" style="-fx-background-color: crimson;" text="Back" textFill="#d0caca">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></JFXButton>
+            <JFXButton fx:id="browse" layoutX="907.0" layoutY="23.0" onAction="#getFile" prefHeight="25.0" prefWidth="104.0" style="-fx-background-color: crimson;" text="Browse" textFill="#d0caca" />
+            <JFXTextField fx:id="fileName" focusColor="CRIMSON" layoutX="634.0" layoutY="23.0" prefHeight="25.0" prefWidth="263.0" unFocusColor="#a48d92" />
+            <JFXButton fx:id="nextBtn" layoutX="105.0" layoutY="16.0" onAction="#next" prefHeight="38.0" prefWidth="97.0" style="-fx-background-color: crimson;" text="Next Iteration" textFill="#d0caca" />
+            <JFXButton fx:id="animation" layoutX="430.0" layoutY="16.0" onAction="#animation" prefHeight="38.0" prefWidth="97.0" style="-fx-background-color: crimson;" text="Animate" textFill="#d0caca" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane" layoutX="14.0" layoutY="113.0" prefHeight="426.0" prefWidth="590.0" style="-fx-background-color: #EDF2F4;" />
+      <Pane layoutX="620.0" layoutY="82.0" prefHeight="469.0" prefWidth="205.0" style="-fx-background-color: F233C; -fx-border-width: 3px 0px 3px 3px;">
+         <children>
+            <JFXListView fx:id="list" layoutX="20.0" layoutY="33.0" prefHeight="385.0" prefWidth="166.0" style="-fx-background-color: #EDF2F4;" />
+            <JFXButton fx:id="add" layoutX="148.0" layoutY="430.0" onAction="#addList" style="-fx-background-color: CRIMSON;" text="Add" textFill="#d0caca" />
+            <JFXTextField fx:id="txt1" focusColor="CRIMSON" layoutX="20.0" layoutY="430.0" prefHeight="25.0" prefWidth="122.0" promptText="ex. kawaii" unFocusColor="#a48d92" />
+            <Label layoutX="20.0" layoutY="8.0" prefHeight="25.0" prefWidth="166.0" style="-fx-alignment: center;" text="Words List" textAlignment="CENTER" textFill="#fff6f6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="825.0" layoutY="58.0" prefHeight="223.0" prefWidth="205.0" style="-fx-background-color: F233C; -fx-border-width: 3px 0px 3px 3px;">
+         <children>
+            <JFXListView fx:id="across1" layoutX="20.0" layoutY="58.0" prefHeight="162.0" prefWidth="166.0" style="-fx-background-color: #EDF2F4;" />
+            <Label layoutX="20.0" layoutY="33.0" prefHeight="25.0" prefWidth="166.0" style="-fx-alignment: center;" text="Across Words" textAlignment="CENTER" textFill="#fff6f6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="825.0" layoutY="302.0" prefHeight="204.0" prefWidth="205.0" style="-fx-background-color: F233C; -fx-border-width: 3px 0px 3px 3px;">
+         <children>
+            <JFXListView fx:id="down1" layoutX="20.0" layoutY="39.0" prefHeight="156.0" prefWidth="166.0" style="-fx-background-color: #EDF2F4;" />
+            <Label layoutX="20.0" layoutY="14.0" prefHeight="25.0" prefWidth="166.0" style="-fx-alignment: center;" text="Down words" textAlignment="CENTER" textFill="#fff6f6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="14.0" layoutY="604.0" prefHeight="124.0" prefWidth="511.0">
+         <children>
+            <Label layoutX="10.0" layoutY="2.0" prefHeight="25.0" prefWidth="81.0" style="-fx-font-style: italic;" text="Black Cells" textFill="CRIMSON">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Pane layoutX="10.0" layoutY="24.0" prefHeight="90.0" prefWidth="481.0" style="-fx-border-color: gray;">
+               <children>
+                  <JFXButton layoutX="14.0" layoutY="15.0" onAction="#british" prefHeight="25.0" prefWidth="215.0" style="-fx-background-color: CRIMSON;" text="Generate Brithish Standard" textFill="#d0caca" />
+                  <JFXButton layoutX="237.0" layoutY="15.0" onAction="#american" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: CRIMSON;" text="Generate American Standard" textFill="#d0caca" />
+                  <JFXButton layoutX="14.0" layoutY="47.0" onAction="#g70" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: CRIMSON;" text="70%" textFill="#d0caca">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="177.0" layoutY="47.0" onAction="#g50" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: CRIMSON;" text="50%" textFill="#d0caca">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="282.0" layoutY="47.0" onAction="#g30" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: CRIMSON;" text="30%" textFill="#d0caca">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="364.0" layoutY="47.0" onAction="#g20" prefHeight="25.0" prefWidth="53.0" style="-fx-background-color: CRIMSON;" text="20%" textFill="#d0caca">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="423.0" layoutY="47.0" onAction="#g10" prefHeight="25.0" prefWidth="37.0" style="-fx-background-color: CRIMSON;" text="10%" textFill="#d0caca">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="516.0" layoutY="599.0" prefHeight="124.0" prefWidth="243.0">
+         <children>
+            <Pane layoutX="14.0" layoutY="27.0" prefHeight="90.0" prefWidth="187.0" style="-fx-border-color: gray;">
+               <children>
+                  <JFXCheckBox fx:id="box1" checkedColor="CRIMSON" layoutX="22.0" layoutY="17.0" text="Health" />
+                  <JFXCheckBox fx:id="box2" checkedColor="CRIMSON" layoutX="22.0" layoutY="53.0" text="Technology" />
+                  <JFXCheckBox fx:id="box3" checkedColor="CRIMSON" layoutX="123.0" layoutY="17.0" text="Arts" />
+                  <JFXCheckBox fx:id="box4" checkedColor="CRIMSON" layoutX="123.0" layoutY="53.0" text="All" />
+               </children>
+            </Pane>
+            <Label layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="60.0" style="-fx-font-style: italic;" text="Topics" textFill="CRIMSON">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <JFXButton fx:id="hints" layoutX="785.0" layoutY="655.0" onAction="#openHints" prefHeight="38.0" prefWidth="81.0" style="-fx-background-color: crimson;" text="Results" textFill="#d0caca" />
+      <JFXButton fx:id="summary" layoutX="899.0" layoutY="655.0" onAction="#showSummary" prefHeight="38.0" prefWidth="81.0" style="-fx-background-color: crimson;" text="Summary" textFill="#d0caca" />
+      <JFXSlider fx:id="speedBar" layoutX="785.0" layoutY="614.0" prefHeight="25.0" prefWidth="215.0" />
+      <Pane layoutX="14.0" layoutY="71.0" prefHeight="38.0" prefWidth="590.0" style="-fx-border-color: gray;">
+         <children>
+            <Label fx:id="status" layoutX="72.0" prefHeight="38.0" prefWidth="511.0" textFill="WHITE" />
+            <Label layoutX="12.0" layoutY="7.0" prefHeight="25.0" prefWidth="53.0" style="-fx-font-style: italic;" text="Status:" textFill="CRIMSON">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
