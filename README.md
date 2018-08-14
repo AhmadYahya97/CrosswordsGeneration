@@ -7,10 +7,6 @@ This project was apart of AI course at Birzeit University.
 
 The main focus of the project was on the generation part of the puzzle, the generation was implemented using Constraints Satisfaction Problems (CSPs) search technique, which started from finding appropriate variables and values (domains), then finding the best data structures to satisfy the problems specification in terms of both space and time, our aim was not just to create a generator to fill the grid, but a reasoning UI that is easy to use for normal users and for those whom in real need of it like the newspapers editors, they can choose the topic(s) and the file they want, then they can choose the generation style (American, British, random or just manually), then if there’s a possible words combination that can fit the constraints a new UI will pop-up with hints and a numbering link to the grid so they can print/publish it.
 
-
-as a Bonus part we designed an interactive user interface so the project can be used later for educational uses.
-
-in the UI the progress of each job the progress of the whole system can be seen.
 ## Approach
 Our approach focused on how to treat the space and the time well, because of this, every step must be accurately measured and the decision of choosing the variable or the value must be done using heuristics. 
 ### Choosing the variable
