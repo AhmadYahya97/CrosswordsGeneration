@@ -42,7 +42,7 @@ Choosing the variables and the values is all done by the heuristics, the forward
 	 1. Number of backtracks
 	 2. Number of iterations
 	 3. Time taken
-	 4. Speed used
+	 4. Space used
  
 ## Development
 Many steps can be implemented to improve the project, but all of them need to be well studied and understood, there are tons of optimization and solving techniques like the **phase transition phenomena**, which was first discussed in the fashion of crosswords puzzle in Anbulagan and Adi Botea paper. Their paper has the best results so far in the crosswords puzzle as a CSP approach.
