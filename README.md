@@ -1,3 +1,7 @@
+
+
+
+
 # Crosswords generation as CSP
 This project was apart of AI course at Birzeit University. 
 
@@ -24,8 +28,47 @@ Choosing the variables and the values is all done by the heuristics, the forward
 
 #### All of this will be displayed in the UI, from the grid to all its components to the list of words. a log will be displayed to the user telling him what happend each iteration in the DFS, and finally a summary window button will appear that displays all the main events that happened during filling the grid, like the number of iterations, the number of backtracks, the time spent and the space used.
 
+## Features
+ - The matrix can be of any size ( n*m ).
+ - The user can choose to pick a enter a size or just pick a famous predefined grid.
+ - The user can build the grid  (fill it with black squares) with American or British styles or just random. 
+ - The solution generation can be done using 3 different categories (Topics) or mix them, the topics are:
+	 1. Health
+	 2. Arts
+	 3. Technologies 
+ - The user can process the generation step by step, with animation (with adjustable speed) or simply skipping to the final solution.
+ - If there's a solution, the user can view a results window which shows the across/down hints and their linked numbers to the gird, so he/she can publish it as a puzzle under the chosen topic(s).
+ - If the user is interested in the performance aspects he/she can view the summary window which informs:
+	 1. Number of backtracks
+	 2. Number of iterations
+	 3. Time taken
+	 4. Speed used
+ 
 ## Development
 Many steps can be implemented to improve the project, but all of them need to be well studied and understood, there are tons of optimization and solving techniques like the **phase transition phenomena**, which was first discussed in the fashion of crosswords puzzle in Anbulagan and Adi Botea paper. Their paper has the best results so far in the crosswords puzzle as a CSP approach.
 
 
-*More details about the project can be found on our paper in this repo.*
+*More details about the project like the challenges we faced and the data structures used can be found on our paper in this repo.*
+
+## Screenshots
+### Initial screen
+![Alt text](/Screenshots/initialScreen.PNG?raw=true "Initial Screen")
+### The screen before specifying words/file
+![Alt text](/Screenshots/beforeAddingTheWords.PNG?raw=true "The screen before specifying words/file")
+### The screen after adding a words file
+![Alt text](/Screenshots/afterUploadingAFile.PNG?raw=true "The screen after adding a words file")
+### Animation mode
+![Alt text](/Screenshots/whileAnimating.PNG?raw=true "Animation mode")
+### Final results
+![Alt text](/Screenshots/finalResult.PNG?raw=true "Final results")
+### The results for newspapers publishing
+![Alt text](/Screenshots/theResultsForTheNewspaperSubmission.PNG?raw=true "The results for newspapers publishing")
+### Performance summary
+![Alt text](/Screenshots/summary.PNG?raw=true "Performance summary")
+
+
+
+
+## Authors
+- Ahmad Yahya. ( @AhmadYahya97 )
+- Maha Hajja.
