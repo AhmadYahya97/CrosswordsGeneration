@@ -45,3 +45,29 @@ Many steps can be implemented to improve the project, but all of them need to be
 
 
 *More details about the project like the challenges we faced and the data structures used can be found in our paper in this repo.*
+
+## Screenshots
+### Initial screen
+![Alt text](/Screenshots/initialScreen.PNG?raw=true "Initial Screen")
+### The screen before specifying words/file
+![Alt text](/Screenshots/beforeAddingTheWords.PNG?raw=true "The screen before specifying words/file")
+### The screen after adding a words file
+![Alt text](/Screenshots/afterUploadingAFile.PNG?raw=true "The screen after adding a words file")
+### Animation mode
+![Alt text](/Screenshots/whileAnimating.PNG?raw=true "Animation mode")
+### Final results
+![Alt text](/Screenshots/finalResult.PNG?raw=true "Final results")
+### The results for newspapers publishing
+![Alt text](/Screenshots/theResultsForTheNewspaperSubmission.PNG?raw=true "The results for newspapers publishing")
+### Performance summary
+![Alt text](/Screenshots/summary.PNG?raw=true "Performance summary")
+
+
+
+
+## Authors
+- Ahmad Yahya. ( @AhmadYahya97 )
+- Maha Hajja.
+
+#### Special thanks goes to our supervisor Mr. Aziz Qaroush.
+
